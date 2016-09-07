@@ -12,6 +12,7 @@ RUN buildDeps=' \
 		clang \
 		git \
 		make \
+		python-dev \
 	' \
 	&& set -x \
 	&& apt-get update && apt-get install -y $buildDeps --no-install-recommends \
